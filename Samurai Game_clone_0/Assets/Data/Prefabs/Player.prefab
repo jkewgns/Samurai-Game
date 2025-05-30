@@ -73,6 +73,9 @@ PrefabInstance:
       addedObject: {fileID: 3629257464344963207}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a8a6a8feeb23cf145a4c346de370f331, type: 3}
       insertIndex: -1
+      addedObject: {fileID: -6802186249208010948}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a8a6a8feeb23cf145a4c346de370f331, type: 3}
+      insertIndex: -1
       addedObject: {fileID: -273334177884581742}
   m_SourcePrefab: {fileID: 100100000, guid: a8a6a8feeb23cf145a4c346de370f331, type: 3}
 --- !u!1 &2318662756234819318 stripped
@@ -89,8 +92,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2318662756234819318}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: a8a6a8feeb23cf145a4c346de370f331, type: 3}
+  m_Controller: {fileID: 9100000, guid: 196e222e494482c468a58cfb6b67b4b7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -135,6 +138,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: -273334177884581742}
+  animator: {fileID: 0}
+  playerAnimatorManager: {fileID: 0}
+  playerLocomotionManager: {fileID: 0}
 --- !u!114 &-4009237474777308553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,6 +153,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7f9bdac801e2488dbb13b3493a7d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  networkPosition:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  networkRotation:
+    m_InternalValue: {x: 0, y: 0, z: 0, w: 1}
+  networkPositionVelocity: {x: 0, y: 0, z: 0}
+  networkPositionSmoothTime: 0.1
+  networkRotationSmoothTime: 0.1
 --- !u!114 &3629257464344963207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +177,19 @@ MonoBehaviour:
   moveAmount: 0
   walkingSpeed: 2
   runningSpeed: 5
+  rotationSpeed: 15
+--- !u!114 &-6802186249208010948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318662756234819318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a573652020d34e43a4a20a4bd40c51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!143 &-273334177884581742
 CharacterController:
   m_ObjectHideFlags: 0
