@@ -82,6 +82,7 @@
     <Compile Include="Assets\Addons\Invector\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\Addons\Invector\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\PlayerControls.cs" />
+    <Compile Include="Assets\ResetActionFlag.cs" />
     <Compile Include="Assets\Scripts\Menu Scene\TitleScreenManager.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterAnimatorManager.cs" />
     <Compile Include="Assets\Addons\Invector\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />

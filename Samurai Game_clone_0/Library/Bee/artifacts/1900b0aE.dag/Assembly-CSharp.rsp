@@ -395,6 +395,7 @@
 "Assets/Addons/Invector/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vExtensions.cs"
 "Assets/Addons/Invector/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
 "Assets/PlayerControls.cs"
+"Assets/ResetActionFlag.cs"
 "Assets/Scripts/Character/CharacterAnimatorManager.cs"
 "Assets/Scripts/Character/CharacterLocomotionManager.cs"
 "Assets/Scripts/Character/CharacterManager.cs"
