@@ -395,11 +395,11 @@
 "Assets/Addons/Invector/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vExtensions.cs"
 "Assets/Addons/Invector/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
 "Assets/PlayerControls.cs"
-"Assets/ResetActionFlag.cs"
 "Assets/Scripts/Character/CharacterAnimatorManager.cs"
 "Assets/Scripts/Character/CharacterLocomotionManager.cs"
 "Assets/Scripts/Character/CharacterManager.cs"
 "Assets/Scripts/Character/CharacterNetworkManager.cs"
+"Assets/Scripts/Character/CharacterSoundFXManager.cs"
 "Assets/Scripts/Character/Player/Player UI/PlayerUIManager.cs"
 "Assets/Scripts/Character/Player/PlayerAnimatorManager.cs"
 "Assets/Scripts/Character/Player/PlayerCamera.cs"
@@ -407,8 +407,11 @@
 "Assets/Scripts/Character/Player/PlayerLocomotionManager.cs"
 "Assets/Scripts/Character/Player/PlayerManager.cs"
 "Assets/Scripts/Character/Player/PlayerNetworkManager.cs"
+"Assets/Scripts/Character/Player/PlayerSoundFXManager.cs"
+"Assets/Scripts/Character/ResetActionFlag.cs"
 "Assets/Scripts/Menu Scene/TitleScreenManager.cs"
 "Assets/Scripts/World Managers/WorldSaveGameManager.cs"
+"Assets/Scripts/World Managers/WorldSoundFXManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
